@@ -1,0 +1,33 @@
+body{
+    background-color: beige;
+    text-align: center;
+}
+#wrapper h2, #wrapper div{
+    display: flex;
+    color: aliceblue;
+    justify-content: center;
+}
+#wrapper{
+    height:500px;
+    width: 500px;
+    justify-content: center;
+    background-color: black;
+    margin:auto;
+    padding: 50px;
+}
+input{
+    padding: 5px ;
+}
+button{
+    color: black;
+    background-color:bisque;
+    padding: 10px 20px 10px 20px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: beige;
+}
+#result{
+    padding-top: 10px;
+    color: white;
+}
